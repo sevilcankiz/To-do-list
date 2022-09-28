@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+    135deg,
+    #3333ec,
+    #a0b9ff
+    );
+}
+#newtask{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    backdrop-filter: blur(38px);
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 10%), 0 10px 15px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg, rgba(255,255,255,0.35), rgba(255,255,255,0.35));
+    width: 100%;
+    min-height: 70px;
+    mix-blend-mode: hard-light;
+}
+#newtask input, #newtask button{
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    padding: 10px;
+}
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+#tasks{
+    background-image: linear-gradient(45deg, rgba(255,255,255,0.35), rgba(255,255,255,0.35));
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
+}
+.task{
+    background-color: white;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.task span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+a img{
+    color: white;
+    height: 100%;
+    width: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+img:hover{
+    background-image: url("./img/mulleimer.gif");
+}
+.completed{
+    text-decoration: line-through;
+    color: #d1d3d4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
