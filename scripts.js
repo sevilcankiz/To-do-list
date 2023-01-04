@@ -1,15 +1,3 @@
-//function NewTodo() {
-    // console.log("Hello Class");
-//    let listItem = document.createElement("li");
-//    let inputField = document.getElementById("myInput").value;
-//    let  tNode = document.createTextNode(inputField);
-
-//    listItem.appendChild(tNode);
-
-//    document.getElementById("myUL").appendChild(listItem);
-//}
-
-
 document.querySelector('#push').onclick = function
     (){
         if(document.querySelector('#newtask input').value.length
